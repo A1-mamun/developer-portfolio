@@ -150,3 +150,48 @@ nav a {
   font-weight: 700;
   line-height: 30px;
 }
+.what-i-do-title {
+  color: #181818;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+}
+.what-i-do-details {
+  max-width: 910px;
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin: 30px auto 50px;
+}
+.what-i-know {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.what-i-know-card {
+  width: 267px;
+  height: 377px;
+  padding: 30px 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.what-i-know-title {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.what-i-know-details {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
