@@ -94,3 +94,59 @@ nav a {
 .banner-content {
   max-width: 580px;
 }
+
+/* main section style */
+
+.about {
+  background: #fff8f3;
+  width: 1140px;
+  height: 550px;
+  margin: 130px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  color: #181818;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-details {
+  color: #757575;
+  max-width: 827px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 30px;
+}
+
+.about-info {
+  display: flex;
+  gap: 50px;
+}
+.info-details {
+  text-align: center;
+}
+.title {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.details {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
