@@ -19,6 +19,7 @@ body {
   font-weight: 700;
   color: white;
   padding: 18px 35px;
+  margin-top: 25px;
 }
 
 /* header style */
@@ -173,7 +174,7 @@ nav a {
   justify-content: center;
 }
 .what-i-know-card {
-  width: 267px;
+  width: 220px;
   height: 377px;
   padding: 30px 33px;
   border-radius: 5px;
@@ -194,4 +195,57 @@ nav a {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+
+.my-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resume-title {
+  color: #181818;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 130px;
+  margin-bottom: 110px;
+}
+.resume {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.education-experience-title {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-bottom: 30px; */
+}
+.degree-position {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.institution {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.degree-position-details {
+  max-width: 510px;
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-right: 75px;
+  margin-bottom: 30px;
 }
