@@ -310,3 +310,45 @@ textarea {
   font-size: 16px;
   font-weight: 400;
 }
+
+.hide {
+  display: none;
+}
+
+/* Responsive styles  */
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+  .what-i-do-details {
+    padding: 0 30px;
+  }
+  .what-i-know,
+  .resume {
+    flex-direction: column;
+  }
+  .what-i-know-card {
+    margin: 0 auto;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .connect-me {
+  }
+  .connection-details {
+    width: auto;
+  }
+}
+
+/* Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .what-i-do-details {
+    padding: 0 30px;
+  }
+  .what-i-know {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .what-i-know-card {
+    margin: 0 auto;
+  }
+}
